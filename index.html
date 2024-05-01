@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    
+</head>
+<body>
+   <div class="main-body">
+    <div class="calculator">
+        <div class="output">
+        <input type="text" id="screen">
+    </div>
+    <div class="buttons">
+      <div class="row">
+        <button onclick="sinClick()" class="c">sin</button>
+        <button onclick="cosClick()" class="c">cos</button>
+        <button onclick="tanClick()" class="c">tan</button>
+        <button onclick="clearDisplay()"class="c">clear</button>
+     
+        <button onclick="buttonclick(7)" class="c">7</button>
+        <button onclick="buttonclick(8)" class="c">8</button>
+        <button onclick="buttonclick(9)" class="c">9</button>
+        <button onclick="buttonclick('/')" class="c">/</button>
+
+
+     </div>
+     <div class="row">
+        <button onclick="buttonclick(4)" class="c">4</button>
+        <button onclick="buttonclick(5)" class="c">5</button>
+    
+        <button onclick="buttonclick(6)" class="c">6</button>
+        <button onclick="buttonclick('*')" class="c">*</button>
+
+     </div>
+     <div class="row">
+        <button onclick="buttonclick(3)" class="c">3</button>
+        <button onclick="buttonclick(2)" class="c">2</button>
+        <button onclick="buttonclick(1)" class="c">1</button>
+        <button onclick="buttonclick('-')" class="c">-</button>
+
+     </div>
+     <div class="row">
+        <button onclick="buttonclick('.')" class="c">.</button>
+        <button onclick="buttonclick(0)" class="c">0</button>
+        <button onclick="buttonclick('+')" class="c">+</button>
+        <button onclick="equalClick('=')" class="c">=</button>
+
+     </div>
+ 
+    </div>
+
+   </div>
+     
+   </div>
+    
+</body>
+</html>
